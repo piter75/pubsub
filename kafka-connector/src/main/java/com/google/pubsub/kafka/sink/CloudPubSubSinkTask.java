@@ -351,7 +351,7 @@ public class CloudPubSubSinkTask extends SinkTask {
 
   @Override
   public void stop() {
-    log.info("Stop CloudPubSubSinkTask");
+    log.info("Stopping CloudPubSubSinkTask");
 
     if (publisher != null) {
       log.info("Shutting down PubSub publisher");
